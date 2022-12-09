@@ -1,16 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.073c9b0a.css",
-    "main.js": "/static/js/main.f45346e8.js",
-    "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
-    "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "main.css": "/static/css/main.821637ef.css",
+    "main.js": "/static/js/main.c8f516ce.js",
+    "static/media/Lyst.png": "/static/media/Lyst.6c88b690e54896690ecd.png",
+    "static/media/OLX.png": "/static/media/OLX.ef627939904a65935edd.png",
+    "static/media/AirGarage.png": "/static/media/AirGarage.d12036016f717ff315c4.png",
+    "static/media/heroImage.jpeg": "/static/media/heroImage.980bb90eef5533984452.jpeg",
     "index.html": "/index.html",
-    "main.073c9b0a.css.map": "/static/css/main.073c9b0a.css.map",
-    "main.f45346e8.js.map": "/static/js/main.f45346e8.js.map",
-    "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
+    "main.821637ef.css.map": "/static/css/main.821637ef.css.map",
+    "main.c8f516ce.js.map": "/static/js/main.c8f516ce.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.f45346e8.js"
+    "static/css/main.821637ef.css",
+    "static/js/main.c8f516ce.js"
   ]
 }
