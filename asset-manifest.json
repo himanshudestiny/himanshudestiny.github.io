@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.06ddd293.css",
-    "main.js": "/static/js/main.ae4c22ec.js",
+    "main.js": "/static/js/main.0068b970.js",
     "static/media/Lyst.png": "/static/media/Lyst.6c88b690e54896690ecd.png",
     "static/media/OLX.png": "/static/media/OLX.ef627939904a65935edd.png",
     "static/media/AirGarage.png": "/static/media/AirGarage.d12036016f717ff315c4.png",
@@ -16,10 +16,10 @@
     "static/media/nextJSLogo.png": "/static/media/nextJSLogo.6e00bdcd1f5205e2d991.png",
     "index.html": "/index.html",
     "main.06ddd293.css.map": "/static/css/main.06ddd293.css.map",
-    "main.ae4c22ec.js.map": "/static/js/main.ae4c22ec.js.map"
+    "main.0068b970.js.map": "/static/js/main.0068b970.js.map"
   },
   "entrypoints": [
     "static/css/main.06ddd293.css",
-    "static/js/main.ae4c22ec.js"
+    "static/js/main.0068b970.js"
   ]
 }
