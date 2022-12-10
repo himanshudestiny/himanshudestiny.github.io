@@ -12,6 +12,7 @@ const links = [
     {
         id:1,
         link:"home",
+        
     },
     {
         id:2,
@@ -52,7 +53,7 @@ const links = [
  <ul className="flex flex-col justify-center items-center absolute top-0 left-0 w-full hoscreen bg-gradient-to-b from-gray-400 to-gray-200">
  { links.map(({id, link})=> (
        <li key={id} className="px-4 cursor-pointer capitalize py-6 text-4xl">
-          <Link to={link} smooth duration={700}> {link} </Link>
+          <Link onClick={() => setnav(!nav)} to={link} smooth duration={700}> {link} </Link>
            </li>
    ))}
    <li className=""></li>
