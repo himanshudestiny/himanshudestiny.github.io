@@ -2,6 +2,7 @@ import React from 'react'
 import OLX from "../assets/OLX.png";
 import AirGarage from "../assets/AirGarage.png";
 import Lyst from "../assets/Lyst.png";
+import nyresa from "../assets/nyresa.png";
 
 
 
@@ -12,7 +13,7 @@ const Projects = () => {
   return (
     <div name="projects" class="bg-gradient-to-b from-gray-300 to-gray-500 w-full md: h-full">
         <div class="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full ">
-            <div class="pb-8 mt-40 md:mt-0">
+            <div class="pb-8 mt-20 md:mt-20">
                 <p class="text-4xl font-bold inline border-b-4 border-b-black ">Projects</p>
                 <p class="py-6">These are some beautiful projects that I made</p>
                 </div>
@@ -54,10 +55,10 @@ const Projects = () => {
                                             <div class="flex flex-col sm:flex-row max-w-screen-lg">
                                                 <div class="bg-gradient-to-r from-purple-500 to-purple-800 rounded-lg text-white md:w-2/3">
                                                     <div class="flex items-center justify-center">
-                                                        <button class="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105"> <a href="https://splendorous-pegasus-bb5e96.netlify.app/"> Project </a></button>
+                                                        <button class="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105"> <a href=""> Project </a></button>
                                                         <button class="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105"> <a href="https://github.com/himanshudestiny/frequent-thumb-7462"> Github</a></button>
                                                         </div>
-                                                       <a href="https://splendorous-pegasus-bb5e96.netlify.app/"> <img src={Lyst} alt="Lyst" class="rounded-md duration-300 hover:scale-105" /></a>
+                                                       <a href=""> <img src={Lyst} alt="Lyst" class="rounded-md duration-300 hover:scale-105" /></a>
                                                         </div>
                                                         <div class="flex flex-col justify-center shadow-xl border-black h-full sm:w-1 md:w-2/3 pl-8 pb-4">
                                                             <h1 class="text-4xl font-bold mt-4 md:mt-0 ">Lyst Clone</h1>
@@ -68,6 +69,25 @@ const Projects = () => {
                                                             <br />
                                                             <p class="text-2xl font-bold">TechStack </p>
                                                             <p class="font-bold">REACT, Chakra UI, Chakra Icons</p>
+    </div>
+    </div>
+    <div class="flex flex-col sm:flex-row max-w-screen-lg">
+                                                <div class="bg-gradient-to-r from-purple-500 to-purple-800 rounded-lg text-white md:w-2/3">
+                                                    <div class="flex items-center justify-center">
+                                                        <button class="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105"> <a href="https://numerous-governor-3295.netlify.app/"> Project </a></button>
+                                                        <button class="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105"> <a href="https://github.com/himanshudestiny/numerous-governor-3295"> Github</a></button>
+                                                        </div>
+                                                       <a href="https://numerous-governor-3295.netlify.app/"> <img src={nyresa} alt="Lyst" class="rounded-md duration-300 hover:scale-105" /></a>
+                                                        </div>
+                                                        <div class="flex flex-col justify-center shadow-xl border-black h-full sm:w-1 md:w-2/3 pl-8 pb-4">
+                                                            <h1 class="text-4xl font-bold mt-4 md:mt-0 ">Mytheresa Clone</h1>
+                                                            <h1>Mytheresa is an e-commerce website for shopping clothes. It is a group project under my leadership.</h1>
+                                                            <br />
+                                                            <p class="text-2xl font-bold">Features</p>
+                                                            <p class="font-semibold">Delivery Page display, Payment Page display, Confirm Page display and form their respective functionalities developed </p>
+                                                            <br />
+                                                            <p class="text-2xl font-bold">TechStack </p>
+                                                            <p class="font-bold">REACT, Chakra UI, Chakra Icons, Local Storage, Axios</p>
     </div>
     </div>
     </div>

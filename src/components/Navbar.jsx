@@ -20,14 +20,18 @@ const links = [
     },
     {
         id:3,
-        link:"skills",
-    },
-    {
-        id:4,
         link:"projects",
     },
     {
-        id:5,
+        id:4,
+        link:"skills",
+    },
+    {
+      id:5,
+      link:"github",
+    },
+    {
+        id:6,
         link:"contact",
     }
 ]
