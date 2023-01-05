@@ -8,6 +8,7 @@ const Home = () => {
       <div className="max-w-screen-xl mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
         <div className="flex flex-col justify-center h-full mt-60 md:mt-60">
             <h2 className="text-4xl sm:text-7xl font-bold ">Aspiring Full Stack Web Developer</h2>
+            <h2 className="text-2xl sm:text-2xl font-bold ">Hello, I am Himanshu Gangwar</h2>
             <p className="py-4 max-w-md">A highly passionate and motivated individual who thrives upon seeking new challenges 
                 through career as a Full Stack Web Developer. 
                 With good Coding and Programming skills,

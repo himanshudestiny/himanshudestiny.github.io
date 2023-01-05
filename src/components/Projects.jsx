@@ -37,10 +37,10 @@ const Projects = () => {
                                 </div>
                                 <div class="flex flex-col sm:flex-row max-w-screen-lg"><div class="bg-gradient-to-r from-purple-500 to-purple-800 rounded-lg text-white md:w-2/3">
                                     <div class="flex items-center justify-center">
-                                        <button class="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105"> <a href="https://air-garage-clone.netlify.app/sales/index.html">  Project</a></button>
+                                        <button class="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105"> <a href="https://air-garage-clone.netlify.app">  Project</a></button>
                                         <button class="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105">  <a href="https://github.com/fahad9988/naughty-wind-121"> Github</a></button>
                                         </div>
-                                      <a href="https://air-garage-clone.netlify.app/sales/index.html">  <img src={AirGarage} alt="AirGarage" class="rounded-md duration-300 hover:scale-105" /></a>
+                                      <a href="https://air-garage-clone.netlify.app">  <img src={AirGarage} alt="AirGarage" class="rounded-md duration-300 hover:scale-105" /></a>
                                         </div>
                                         <div class="flex flex-col justify-center shadow-xl border-black h-full sm:w-1 md:w-2/3 pl-8 pb-4">
                                             <h1 class="text-4xl font-bold mt-4 md:mt-0 ">AirGarage Clone</h1>
@@ -55,10 +55,10 @@ const Projects = () => {
                                             <div class="flex flex-col sm:flex-row max-w-screen-lg">
                                                 <div class="bg-gradient-to-r from-purple-500 to-purple-800 rounded-lg text-white md:w-2/3">
                                                     <div class="flex items-center justify-center">
-                                                        <button class="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105"> <a href=""> Project </a></button>
+                                                        <button class="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105"> <a href="https://splendorous-pegasus-bb5e96.netlify.app/"> Project </a></button>
                                                         <button class="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105"> <a href="https://github.com/himanshudestiny/frequent-thumb-7462"> Github</a></button>
                                                         </div>
-                                                       <a href=""> <img src={Lyst} alt="Lyst" class="rounded-md duration-300 hover:scale-105" /></a>
+                                                       <a href="https://splendorous-pegasus-bb5e96.netlify.app/"> <img src={Lyst} alt="Lyst" class="rounded-md duration-300 hover:scale-105" /></a>
                                                         </div>
                                                         <div class="flex flex-col justify-center shadow-xl border-black h-full sm:w-1 md:w-2/3 pl-8 pb-4">
                                                             <h1 class="text-4xl font-bold mt-4 md:mt-0 ">Lyst Clone</h1>
