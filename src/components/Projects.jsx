@@ -90,6 +90,44 @@ const Projects = () => {
                                                             <p class="font-bold">REACT, Chakra UI, Chakra Icons, Local Storage, Axios</p>
     </div>
     </div>
+    <div class="flex flex-col sm:flex-row max-w-screen-lg">
+                                                <div class="bg-gradient-to-r from-purple-500 to-purple-800 rounded-lg text-white md:w-2/3">
+                                                    <div class="flex items-center justify-center">
+                                                        <button class="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105"> <a href="https://frontend-himanshudestiny.vercel.app/login"> Project </a></button>
+                                                        <button class="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105"> <a href="https://github.com/masai-course/himanshu_fw20_1081/tree/master/unit-6/project"> Github</a></button>
+                                                        </div>
+                                                       <a href="https://frontend-himanshudestiny.vercel.app/login"> <img src='https://i.postimg.cc/PrG52tqS/Screenshot-80.png' alt="Miniproject" class="rounded-md duration-300 hover:scale-105" /></a>
+                                                        </div>
+                                                        <div class="flex flex-col justify-center shadow-xl border-black h-full sm:w-1 md:w-2/3 pl-8 pb-4">
+                                                            <h1 class="text-4xl font-bold mt-4 md:mt-0 ">Full Stack Project</h1>
+                                                            <h1>This is a full stack mini project consisting of frontend as well as backend</h1>
+                                                            <br />
+                                                            <p class="text-2xl font-bold">Features</p>
+                                                            <p class="font-semibold">Sign up anfd Login functionality, CRUD operation for todos, Home Page, About Page, Todos Page</p>
+                                                            <br />
+                                                            <p class="text-2xl font-bold">TechStack </p>
+                                                            <p class="font-bold">REACT, Chakra UI, Chakra Icons, Local Storage, ExpressJS, Mongo DB Atlas, Mongoose</p>
+    </div>
+    </div>
+    <div class="flex flex-col sm:flex-row max-w-screen-lg">
+                                                <div class="bg-gradient-to-r from-purple-500 to-purple-800 rounded-lg text-white md:w-2/3">
+                                                    <div class="flex items-center justify-center">
+                                                        <button class="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105"> <a href="https://numerous-governor-3295.netlify.app/"> Project </a></button>
+                                                        <button class="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105"> <a href="https://github.com/himanshudestiny/numerous-governor-3295"> Github</a></button>
+                                                        </div>
+                                                       <a href="https://numerous-governor-3295.netlify.app/"> <img src='https://i.postimg.cc/kg9wZRNV/Screenshot-74.png' alt="Reliance" class="rounded-md duration-300 hover:scale-105" /></a>
+                                                        </div>
+                                                        <div class="flex flex-col justify-center shadow-xl border-black h-full sm:w-1 md:w-2/3 pl-8 pb-4">
+                                                            <h1 class="text-4xl font-bold mt-4 md:mt-0 ">DigiMart</h1>
+                                                            <h1>DigiMart is basically an e-commerec website where users can buy products such as mobile phones, laptops, telivisions and all other tech products.</h1>
+                                                            <br />
+                                                            <p class="text-2xl font-bold">Features</p>
+                                                            <p class="font-semibold">Products Page, Single Product Page, Sorting, Pagination, Add to Cart functionalities applicable </p>
+                                                            <br />
+                                                            <p class="text-2xl font-bold">TechStack </p>
+                                                            <p class="font-bold">REACT, Chakra UI, Chakra Icons, React Icons, Local Storage </p>
+    </div>
+    </div>
     </div>
     </div>
     </div>
