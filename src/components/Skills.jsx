@@ -12,6 +12,9 @@ import storybookLogo from "../assets/storybookLogo.png";
 import tailwindLogo from "../assets/tailwindLogo.png";
 import typeScriptLogo from "../assets/typeScriptLogo.png";
 import testingLibraryLogo from "../assets/testingLibraryLogo.png";
+import Mongoose from "../assets/Mongoose.png";
+import Node from "../assets/Node.png";
+import Mongo from "../assets/Mongo.png";
 
 
 const Skills = () => {
@@ -87,6 +90,24 @@ const Skills = () => {
       src: testingLibraryLogo,
       title: "Testing Library",
       style: 'shadow-red-500'
+    },
+    {
+      id:13,
+      src: Mongo,
+      title: "Mongo DB",
+      style: 'shadow-green-500'
+    },
+    {
+      id:14,
+      src: Mongoose,
+      title: "Mongoose",
+      style: 'shadow-red-900'
+    },
+    {
+      id:15,
+      src: Node,
+      title: "Node JS",
+      style: 'shadow-green-500'
     }
   ]
   return (
@@ -100,7 +121,7 @@ const Skills = () => {
           {
             skills.map(( { id, src, title, style }) => (
           <div key={id} className={`shadow-md hover:scale-105 duration-500 py-2 rounded-lg ${style}`}>
-            <img src={src} alt={title} className="w-20 mx-auto"/>
+            <img src={src} alt={title} className="w-20 mx-auto h-20"/>
             <p className="mt-4">{title}</p>
           </div>
             ))

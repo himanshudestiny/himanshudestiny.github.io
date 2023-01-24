@@ -2,6 +2,11 @@ import React from 'react'
 import HeroImage from "../assets/heroImage.jpeg";
 import {ImArrowRight2} from "react-icons/im"
 
+const newtab = () => {
+  window.open("https://drive.google.com/file/d/1Isq8uizgRn0jwxYQ6DOv64LGgwXVYc6j/view?usp=sharing")
+}
+
+
 const Home = () => {
   return (
     <div name="home" className="h-full w-full bg-gradient-to-b from-gray-300 via-gray-400 to-gray-500">
@@ -14,7 +19,7 @@ const Home = () => {
                 With good Coding and Programming skills,
                  wants to become a fine asset for the organization working for.</p>
                  <div>
-                   <a href="/Himanshu_Gangwar_Resume.pdf" download={true}> <button className= " group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-purple-600 to-purple-800 cursor-pointer">Resume
+                   <a href="/Himanshu_Gangwar_Resume.pdf" download={true}> <button onClick ={newtab} className= " group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-purple-600 to-purple-800 cursor-pointer">Resume
                         <span className="group-hover:rotate-90 duration-300 ml-2">
                             <ImArrowRight2 />
                         </span>

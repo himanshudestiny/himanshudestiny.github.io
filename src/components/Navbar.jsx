@@ -3,6 +3,10 @@ import { FaBars, FaTimes} from "react-icons/fa";
 import { useState } from "react";
 import { Link } from "react-scroll";
 
+const newtab = () => {
+  window.open("https://drive.google.com/file/d/1Isq8uizgRn0jwxYQ6DOv64LGgwXVYc6j/view?usp=sharing")
+}
+
 
 const Navbar = () => {
 
@@ -48,6 +52,9 @@ const links = [
                 <Link to={link} smooth duration={700}> {link} </Link>
                 </li>
         ))}
+         <a href="/Himanshu_Gangwar_Resume.pdf" download={true}>
+        <button onClick={()=>newtab()} className="px-4 cursor-pointer capitalize font-medium text-black hover:scale-105 duration-200">Resume</button>      
+        </a>
       </ul> 
       <div onClick={()=> setnav(!nav)} className="cursor-pointer pr-4 z-10 md:hidden">
         {nav ? <FaTimes size={30} /> : <FaBars size={30}/>}
@@ -60,7 +67,9 @@ const links = [
           <Link onClick={() => setnav(!nav)} to={link} smooth duration={700}> {link} </Link>
            </li>
    ))}
-   <li className=""></li>
+   <a href="/Himanshu_Gangwar_Resume.pdf" download={true}>
+        <button onClick={()=>newtab()} className="px-4 cursor-pointer capitalize py-6 text-4xl">Resume</button>      
+        </a>
  </ul>
      )}
 
@@ -70,3 +79,5 @@ const links = [
 }
 
 export default Navbar
+
+
