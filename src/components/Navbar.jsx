@@ -42,7 +42,7 @@ const links = [
 
 
   return (
-    <div className="flex justify-between items-center w-full h-20 px-4 text-black bg-gray-500 fixed">
+    <div className="flex justify-between items-center w-full h-20 px-4 text-black bg-gray-500 fixed z-40">
       <div>
         <h1 className="text-5xl font-signature ml-2">HG</h1>
       </div>
