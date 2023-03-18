@@ -35,7 +35,7 @@ const Projects = () => {
         window.open("https://github.com/himanshudestiny/numerous-governor-3295");
       };
       const newtab9 = () => {
-        window.open("https://huddle-4kv598dj0-himanshudestiny.vercel.app/");
+        window.open("https://huddle-4jy50vkbf-himanshudestiny.vercel.app/");
       };
       const newtab10 = () => {
         window.open("https://github.com/masai-course/himanshu_fw20_1081/tree/master/unit-6/project");
