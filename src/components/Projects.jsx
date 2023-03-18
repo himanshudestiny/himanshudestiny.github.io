@@ -35,7 +35,7 @@ const Projects = () => {
         window.open("https://github.com/himanshudestiny/numerous-governor-3295");
       };
       const newtab9 = () => {
-        window.open("https://frontend-himanshudestiny.vercel.app/login");
+        window.open("https://huddle-4kv598dj0-himanshudestiny.vercel.app/");
       };
       const newtab10 = () => {
         window.open("https://github.com/masai-course/himanshu_fw20_1081/tree/master/unit-6/project");
@@ -136,7 +136,7 @@ const Projects = () => {
                                                         <img  onClick={() => newtab9()} src='https://i.postimg.cc/PrG52tqS/Screenshot-80.png' alt="Miniproject" class="rounded-md duration-300 hover:scale-105" />
                                                         </div>
                                                         <div class="flex flex-col justify-center shadow-xl border-black h-full sm:w-1 md:w-2/3 pl-8 pb-4">
-                                                            <h1 class="text-4xl font-bold mt-4 md:mt-0 ">Full Stack Project</h1>
+                                                            <h1 class="text-4xl font-bold mt-4 md:mt-0 ">HuddleCam</h1>
                                                             <h1>This is a full stack mini project consisting of frontend as well as backend</h1>
                                                             <br />
                                                             <p class="text-2xl font-bold">Features</p>
